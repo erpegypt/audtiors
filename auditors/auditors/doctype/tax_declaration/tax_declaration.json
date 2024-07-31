@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EG-{customer}-{fiscal_year}",
+ "creation": "2024-07-03 15:58:55.187416",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "tax_declaration",
+  "column_break_atdg",
+  "posting_date",
+  "fiscal_year",
+  "tax_declaration_adjusted",
+  "section_break_kdgn",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kdgn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Tax Declaration",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_declaration",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Tax Declaration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_declaration_adjusted",
+   "fieldtype": "Attach",
+   "label": "Tax Declaration Adjusted"
+  },
+  {
+   "fieldname": "column_break_atdg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Fiscal Year",
+   "options": "Fiscal Year",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-07 22:09:48.115860",
+ "modified_by": "Administrator",
+ "module": "auditors",
+ "name": "Tax Declaration",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
