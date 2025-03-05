@@ -1,0 +1,130 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"78PgBh0JNx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Legal</span>\",\"col\":12}},{\"id\":\"KlI_TNVdgr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"kc2RyWi_UV\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"U2Mgq3bw5l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"National ID\",\"col\":3}},{\"id\":\"bHDpIMI86M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Extraordinary Association\",\"col\":3}},{\"id\":\"rGpkqADOs3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Regular Association\",\"col\":3}},{\"id\":\"C0b1FdiPX8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Commercial Register\",\"col\":3}},{\"id\":\"TtjEsqFrmQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3_sfXioZft\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rent Contract\",\"col\":3}},{\"id\":\"rsjJ_B-wFp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Incorporation File\",\"col\":3}},{\"id\":\"QgEUurYTow\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Investment newspaper\",\"col\":3}},{\"id\":\"BSAzCiUOFp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Chamber of Commerce certificate\",\"col\":3}},{\"id\":\"szu1HfnZP1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4Aof_XcWVP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Tax Files</b></span>\",\"col\":12}},{\"id\":\"aql4CgHK9t\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tax Card\",\"col\":3}},{\"id\":\"TcysN9DV6M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Start Of Activity\",\"col\":3}},{\"id\":\"Vwk9IktnFo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stop of Activity\",\"col\":3}}]",
+ "creation": "2024-09-13 01:21:26.806829",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-energy-points",
+ "idx": 1,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "\u0642\u0627\u0646\u0648\u0646\u064a",
+ "links": [],
+ "modified": "2024-09-16 16:39:08.423173",
+ "modified_by": "Administrator",
+ "module": "auditors",
+ "name": "\u0642\u0627\u0646\u0648\u0646\u064a",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Legal"
+  }
+ ],
+ "sequence_id": 42.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Customer",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Extraordinary Association",
+   "link_to": "Extraordinary Association",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Rent Contract",
+   "link_to": "Rent Contract",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Incorporation File",
+   "link_to": "Incorporation File",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Tax Card",
+   "link_to": "Tax Card",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "National ID",
+   "link_to": "National ID",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Investment newspaper",
+   "link_to": "Investment newspaper",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Chamber of Commerce certificate",
+   "link_to": "Chamber of Commerce certificate",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Start Of Activity",
+   "link_to": "Start of Activity",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stop of Activity",
+   "link_to": "Stop of Activity",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Regular Association",
+   "link_to": "Regular Association",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Commercial Register",
+   "link_to": "Commercial Register",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u0642\u0627\u0646\u0648\u0646\u064a"
+}
